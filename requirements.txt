@@ -1,0 +1,4 @@
+scipy
+opencv-python
+pyoctree==0.2.10
+vtk==8.1.2
