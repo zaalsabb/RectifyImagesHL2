@@ -17,7 +17,7 @@ class ImagesLoader():
 
         poses_file = os.path.join(self.data_dir,'poses.csv')
         intrinsics_file = os.path.join(self.data_dir,'intrinsics.json')
-        mesh_file = os.path.join(self.data_dir,'mesh2.stl')
+        mesh_file = os.path.join(self.data_dir,'mesh.stl')
 
         with open(intrinsics_file,'r') as f:
             self.intrinsics = json.load(f)
